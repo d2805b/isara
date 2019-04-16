@@ -1,1 +1,64 @@
+@media(max-width: 1200px){
+  .detail-contents{
+    margin-bottom: 30px;
+    width: 80%;
+  }
+}
+
+@media(max-width: 770px){
+  .header-button{
+    display: none;
+  }
+  .hide-header{
+    display: block;
+  }
+  .skill-content{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .melit-text{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .flow-icon{
+    display: none;
+  }
+  .flow-content,.box-left{
+    width: 80%;
+  }
+}
+@media(max-width: 350px){
+  .detail-contents{
+    width: 100%;
+  }
+}
+
+/*about-second box*/
+@media(max-width: 770px){
+  .box{
+    background: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 5px 30px 0;
+    width: 85%;
+    height: 200px;
+  }
+
+  .learning-content{
+    width: 120px;
+    height: 120px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    display: table;
+  }
+  .learning-text{
+   font-size: 12px;
+   display: table-cell;
+   vertical-align: middle;
+   max-width: 100%;
+   max-height: 100%;
+  }
+}
 
